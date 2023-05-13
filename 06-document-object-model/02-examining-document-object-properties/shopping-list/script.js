@@ -50,5 +50,4 @@ output = document.images[0].src;
 // Turn an HTMLCollection into an array
 const forms = Array.from(document.forms);
 forms.forEach((form) => console.log(form));
-
 console.log(output);
